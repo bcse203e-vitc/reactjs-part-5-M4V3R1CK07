@@ -1,0 +1,90 @@
+.productReviewContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.productDetails {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.productImage {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.productName {
+  color: #333;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.productDescription {
+  color: #666;
+  font-size: 16px;
+}
+
+.reviewSection {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.reviewForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.reviewTextarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.ratingInput {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ratingInputField {
+  width: 60px;
+  padding: 5px;
+}
+
+.submitButton {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+}
+
+.existingReviews {
+  margin-top: 20px;
+}
+
+.reviewItem {
+  background-color: white;
+  border: 1px solid #eee;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.reviewRating {
+  color: #ffc107;
+  margin-top: 10px;
+}

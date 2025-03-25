@@ -1,0 +1,27 @@
+.calculator {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 15px;
+}
+
+.display {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: right;
+  padding: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+button:active {
+  transform: scale(0.95);
+}
